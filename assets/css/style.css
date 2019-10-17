@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+h1,h2,h3{ margin:0; }
+
+.conteiner{
+width:100%;
+max-width: 1170px;
+margin: 0 auto ; 
+}
+.after_head{
+width:1920px;
+height: 800px;
+margin-top:171px;
+background-image: 
+linear-gradient(45deg, #b90000 15%, rgba(255,203,0,0) 75%) ,url(../image/Layer_3.png) ;    
+ -webkit-background-size: cover;
+background-size: cover;    
+background-repeat: no-repeat;  
+ 
+}
+
+.after_head_title_1_conteiner{
+width:100%;
+max-width: 456px;
+
+}
+
+.after_head_title_1{
+padding-top: 182px;    
+font-size: 70px;
+letter-spacing: 2px;
+line-height: 80px;
+color: #ffffff;
+font-family: "Poppins";
+text-align:left;
+
+}
+.after_head_title_1:after{
+margin-top: 59px;
+content: "";
+display: block;
+width: 100px;
+height: 4px;
+background-color: #ffcc00;    
+}
+.after_head_title_2_conteiner{
+width:100%;
+max-width: 750px;
+   
+}
+.after_head_title_2{
+padding-top: 40px;    
+font-size: 20px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #ffcc00;
+font-family: "Poppins";
+font-weight: 400;
+}
+
+.after_head_title_3_conteiner{
+width:100%;
+max-width: 500px;
+padding-top: 43px; 
+display: flex;
+
+}
+.after_head_title_3{
+padding-right: 27px; 
+font-size: 20px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #ffffff;
+font-family: "Poppins";
+}
+
+.after_head_title_3_1{
+padding-right: 27px; 
+color: #ffcc00;
+font-family: "Poppins";
+}
+
+
+
+
+.button_conteiner{
+width:100%;
+max-width: 380px;
+padding-top: 46px; 
+display: flex;
+
+}
+
+.button_learn{
+width: 150px;
+height: 50px;
+border-radius: 25px;
+background-color: rgba(255,204,0,0);
+border: 2px solid #ffffff;
+  
+}
+
+.button_text{   
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #ffffff;
+font-family: "Poppins";
+text-align: center;
+text-decoration: none;
+position: relative;
+}
+
+.button_learn:hover  {
+
+box-shadow: 0px 10px 18px rgba(255,204,0,0.4);
+background-color: #ffcc00;
+border: 2px solid #ffcc00;  
+  }
+
+.button_learn:hover .button_text{
+color: #ba0000; 
+  }
+
+.button_dhl{ 
+margin-left: 20px;   
+width: 192px;
+height: 50px;
+border-radius: 25px;
+background-color: rgba(255,204,0,0);
+border: 2px solid #ffffff; 
+}
+
+.button_dhl:hover  {
+
+box-shadow: 0px 10px 18px rgba(255,204,0,0.4);
+background-color: #ffcc00;
+border: 2px solid #ffcc00;  
+  }
+
+.button_dhl:hover .button_text{
+color: #ba0000; 
+  }
+
+
+
+
+    
+   
+
