@@ -14,6 +14,69 @@ h3 {
     margin: 0;
 }
 
+
+/*=================<header>=================*/
+
+/*header menu*/
+
+.header_menu{
+    width: 1920px;
+    height: 50px;
+    background-image: url(../image/header/header-menu/bg.svg);
+}
+
+.header_menu_button_container {
+    width: 1920px;
+    height: 50px;
+}
+
+.contact_center {
+    max-width: 137px;
+    height: 16px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Poppins";
+    text-align: center;
+    margin-left: 1258px;
+}
+
+
+/*main menu*/
+
+.main_menu{
+    width: 1920px;
+    height: 120px;
+    background-image: url(../image/header/main-menu/bg.svg);
+}
+
+.dhl_logo{
+    width: 134px;
+    height: 42px;
+    background-image: url(../image/header/main-menu/dhl.svg);
+}
+
+.button_search{
+    width: 50px;
+    height: 50px;
+    margin-left: 1495px;
+    border-radius: 25px;
+    background-color: #ba0000;
+}
+
+.button_search_text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Poppins";
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+/*=================</header>=================*/
+
+
 .conteiner {
     width: 100%;
     max-width: 1170px;
@@ -23,7 +86,6 @@ h3 {
 .after_head {
     width: 1920px;
     height: 800px;
-    margin-top: 171px;
     background-image:
         linear-gradient(45deg, #b90000 15%, rgba(255, 203, 0, 0) 75%), url(../image/Layer_3.png);
     -webkit-background-size: cover;
