@@ -96,6 +96,7 @@
                     </a>
                 </div>
                 
+                <form action="foo.php">
                 <div class="info_block4">
                     <div class="info_block4_cont">
                         <div class="info_block4_title">DHL Worldwide</div>
@@ -104,18 +105,18 @@
                         <div id="dd" class="info_block4_menu" tabindex="1">
                             <span>Location</span>
                             <ul class="dropdown">
-                                <li><a href="#"><i class="icon-envelope icon-large"></i>Location1</a></li>
-                                <li><a href="#"><i class="icon-truck icon-large"></i>Location2</a></li>
-                                <li><a href="#"><i class="icon-plane icon-large"></i>Location3</a></li>
+                                <li><a href="1"><i class="icon-envelope icon-large"></i>Location1</a><input type="hidden" name="custom" value="Location1"/></li>
+                                <li><a href="2"><i class="icon-truck icon-large"></i>Location2</a>
+                                <input type="hidden" name="custom" value="Location2"/></li>
+                                <li><a href="3"><i class="icon-plane icon-large"></i>Location3</a>
+                                <input type="hidden" name="custom" value="Location3"/></li>
+                                
                             </ul>
                         </div>
-
                         <div class="info_button_conteiner">
-                            <form action="#">
-                                <button class="button_learn">
+                                <button class="button_learn" >
                                     <text class="button_text">EXPLORE</text>
                                 </button>
-                            </form>
                         </div>
                     </div>
 
@@ -157,8 +158,9 @@
                                 $('.wrapper-dropdown-3').removeClass('active');
                             });
                         });
-                    </script>
+                    </script>            
                 </div>
+                     </form>
             </div>
         </div>
     </div>
