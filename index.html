@@ -10,28 +10,34 @@
 
 <header>
     <div class = "header_menu">
-        <div class="header_menu_button_container">
-            <a href="#" class="contact_center">
-                <h1 class="contact_center"><i class="fa fa-users" aria-hidden="true"></i> Contact Center </h1>
-            </a>
-
-        </div>
+        <form class = "contact_center_form" action = "#">
+            <button class="button_contact_center"><i class="fa fa-users" aria-hidden="true"></i> Contact Center  </button>
+        </form>
     </div>
     
     <div class = "main_menu">
-        <div class = "dhl_logo">
-        </div>
-
-        <form action="#">
-                <button class="button_search">
-                    <text class="button_search_text"><i class="fa fa-search" aria-hidden="true"></i></text>
-                </button>
-            </form>
-    </div>
+    <div class = "main_menu_container">
+     
+        <form class = "logo_form" action = "#">
+            <button class="button_logo"></button>
+        </form>
         
-    <div class = "slider">
-           
+        <ul class = "navigation">
+           <li><a href="#services">EXPRESS</a></li>
+           <li><a href="#services">PARCEL & ECOMMERCE </a></li>
+           <li><a href="#paragraf-3">LOGISTICS</a></li>
+           <li><a href="#paragraf-4">MAIL</a></li>
+           <li><a href="#paragraf-5">PRESS</a></li>
+           <li><a href="#paragraf-6">ABOUT</a></li>
+        </ul>
+
+        <form class = "button_search_form" action="#">
+            <button class="button_search"><text class="button_search_text"><i class="fa fa-search" aria-hidden="true"></i></text></button>
+        </form>
+        
     </div>
+</div>
+        
 </header>
 
 <body>
@@ -66,7 +72,7 @@
     <div class="services">
         <div class="conteiner">
             <div class="back_title">SERVICES</div>
-            <h1 class="front_title">Awesome Services</h1>
+            <h1 class="front_title" id = "services">Awesome Services</h1>
             <div class="info_blocks">
                 <div class="info_block1">
                     
@@ -96,7 +102,6 @@
                     </a>
                 </div>
                 
-                <form action="foo.php">
                 <div class="info_block4">
                     <div class="info_block4_cont">
                         <div class="info_block4_title">DHL Worldwide</div>

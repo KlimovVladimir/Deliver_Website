@@ -1,4 +1,4 @@
-/*=================<header>=================*/
+﻿/*=================<header>=================*/
 
 /*header menu*/
 
@@ -8,42 +8,55 @@
     background-image: url(../image/header/header-menu/bg.svg);
 }
 
-.header_menu_button_container {
-    width: 1920px;
-    height: 50px;
+.contact_center_form {
+    width: 0px;
+    height: 0px;
+    margin-left: 1285px;
 }
 
-.contact_center {
-    max-width: 137px;
-    height: 16px;
+.button_contact_center{
+    width: 140px;
     font-size: 14px;
     color: #ffffff;
     font-family: "Poppins";
     text-align: center;
-    margin-left: 1258px;
+    text-decoration: none;
+    background: #ba0000;
+    border: 0px;
+    margin-top: 17px;
+    cursor: pointer;
+
 }
 
 /*main menu*/
-
 .main_menu{
     width: 1920px;
     height: 120px;
     background-image: url(../image/header/main-menu/bg.svg);
 }
 
-.dhl_logo{
-    width: 134px;
-    height: 42px;
-    background-image: url(../image/header/main-menu/dhl.svg);
+.main_menu_container{
+    display: flex;
+    width: 1220px;
+    height: 120px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+.button_search_form{
+    width: 0px;
+    height: 0px;
 }
 
 .button_search{
     width: 50px;
     height: 50px;
-    margin-left: 1495px;
     border-radius: 25px;
     background-color: #ba0000;
     outline: none;
+    border: 0px;
+    margin-top: 35px;
+    margin-left: 251px;
 }
 
 .button_search:hover {
@@ -59,6 +72,53 @@
     text-align: center;
     text-decoration: none;
     position: relative;
+}
+
+.logo_form{
+    margin-top: 39px;
+    width: 134px;
+    height: 42px;
+}
+
+.button_logo{
+    width: 134px;
+    height: 42px;
+    border: 0px solid #ffffff;
+    outline: none;
+    background-image: url(../image/header/main-menu/dhl_logo.png);
+}
+
+ul.navigation{
+    margin-top: 0px;
+    width: 735px;
+    height: 120px;
+    list-style: none;
+}
+
+.navigation li { 
+    float: left;
+}
+
+ul.navigation a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ba0000;
+    font-family: "Poppins";
+    text-align: center;
+    text-decoration: none;
+
+    display: block;
+    padding-bottom: 41px;
+    padding-top: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+ul.navigation a:hover{
+    border-bottom: 5px solid #ba0000;
+    font-weight: bold;
 }
 
 /*=================</header>=================*/
@@ -416,7 +476,12 @@ h1,h2{
 .info_block4_menu.active .dropdown {
     opacity: 1;
     pointer-events: auto;
+<<<<<<< Updated upstream
 }
+=======
+
+}   
+>>>>>>> Stashed changes
 
 .info_button_conteiner {
     width: 100%;
