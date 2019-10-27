@@ -1,20 +1,3 @@
-﻿body {
-    margin: 0;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-h1,
-h2,
-h3 {
-    margin: 0;
-}
-
-
 /*=================<header>=================*/
 
 /*header menu*/
@@ -40,7 +23,6 @@ h3 {
     margin-left: 1258px;
 }
 
-
 /*main menu*/
 
 .main_menu{
@@ -61,7 +43,12 @@ h3 {
     margin-left: 1495px;
     border-radius: 25px;
     background-color: #ba0000;
+    outline: none;
 }
+
+.button_search:hover {
+    filter: drop-shadow(0px 10px 9px rgba(186,0,0,0.4));
+    background-color: #ba0000;}
 
 .button_search_text{
     font-size: 14px;
@@ -75,7 +62,24 @@ h3 {
 }
 
 /*=================</header>=================*/
+/*=================<body>====================*/
 
+body {
+    margin: 0;
+    font-family: 'Poppins', 'Open Sans',sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2{
+    margin: 0;
+}
+
+/*slider*/
 
 .conteiner {
     width: 100%;
@@ -87,11 +91,10 @@ h3 {
     width: 1920px;
     height: 800px;
     background-image:
-        linear-gradient(45deg, #b90000 15%, rgba(255, 203, 0, 0) 75%), url(../image/Layer_3.png);
+    linear-gradient(45deg, #b90000 15%, rgba(255, 203, 0, 0) 75%), url(../image/Layer_3.png);
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .after_head_title_1 {
@@ -102,9 +105,7 @@ h3 {
     letter-spacing: 2px;
     line-height: 80px;
     color: #ffffff;
-    font-family: "Poppins";
     text-align: left;
-
 }
 
 .after_head_title_1:after {
@@ -124,7 +125,6 @@ h3 {
     letter-spacing: 1px;
     line-height: 30px;
     color: #ffcc00;
-    font-family: "Poppins";
     font-weight: 400;
 }
 
@@ -133,7 +133,6 @@ h3 {
     max-width: 500px;
     padding-top: 43px;
     display: flex;
-
 }
 
 .after_head_title_3 {
@@ -142,17 +141,12 @@ h3 {
     letter-spacing: 1px;
     line-height: 30px;
     color: #ffffff;
-    font-family: "Poppins";
 }
 
 .after_head_title_3_1 {
     padding-right: 27px;
     color: #ffcc00;
-    font-family: "Poppins";
 }
-
-
-
 
 .button_conteiner {
     width: 100%;
@@ -174,15 +168,13 @@ h3 {
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 30px;
-    color: #ffffff;
-    font-family: "Poppins";
+    color: #ffffff; 
     text-align: center;
     text-decoration: none;
     position: relative;
 }
 
 .button_learn:hover {
-
     box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
     background-color: #ffcc00;
     border: 2px solid #ffcc00;
@@ -203,7 +195,6 @@ h3 {
 }
 
 .button_dhl:hover {
-
     box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
     background-color: #ffcc00;
     border: 2px solid #ffcc00;
@@ -212,6 +203,8 @@ h3 {
 .button_dhl:hover .button_text {
     color: #ba0000;
 }
+
+/*services*/
 
 .services {
     width: 1920px;
@@ -230,8 +223,8 @@ h3 {
     letter-spacing: 5px;
     line-height: 80px;
     color: #f8f8f8;
-    font-family: "Poppins";
     position: absolute;
+    font-weight: 600;
 }
 
 .front_title {
@@ -239,7 +232,6 @@ h3 {
     letter-spacing: 2px;
     line-height: 80px;
     color: #ba0000;
-    font-family: "Poppins";
     position: absolute;
     top: 140px;
 }
@@ -252,7 +244,7 @@ h3 {
     width: 270px;
     height: 180px;
     background-image:
-        url(../image/Layer_2.png);
+    url(../image/Layer_2.png);
     margin-top: 290px;
     margin-right: 30px;
 }
@@ -261,7 +253,7 @@ h3 {
     width: 270px;
     height: 180px;
     background-image:
-        url(../image/Layer_4.png);
+    url(../image/Layer_4.png);
     margin-top: 290px;
     margin-right: 30px;
 }
@@ -270,7 +262,7 @@ h3 {
     width: 270px;
     height: 180px;
     background-image:
-        url(../image/Layer_5.png);
+    url(../image/Layer_5.png);
     margin-top: 290px;
     margin-right: 30px;
 }
@@ -281,7 +273,7 @@ h3 {
     letter-spacing: 1px;
     line-height: 50px;
     color: #ba0000;
-    font-family: "Poppins";
+    font-weight: 600;
 }
 
 .info_block_text {
@@ -304,8 +296,8 @@ h3 {
     letter-spacing: 0px;
     line-height: 26px;
     color: #222222;
-    font-family: "Poppins";
     text-decoration: none;
+    font-weight: 600;
 }
 
 .triangle-right {
@@ -313,14 +305,15 @@ h3 {
     padding-left: 6px;
     font-size: 10px;
     color: #ba0000;
-    font-family: "Poppins";
 }
+
+/*location-form*/
 
 .info_block4 {
     width: 270px;
     height: 340px;
     background-image:
-        url(../image/bg1.png);
+    url(../image/bg1.png);
     margin-top: 290px;
     margin-right: 30px;
 }
@@ -334,7 +327,7 @@ h3 {
     letter-spacing: 1px;
     line-height: 80px;
     color: #ffffff;
-    font-family: "Poppins";
+    font-weight: 600;
 }
 
 .info_block4_title:after {
@@ -353,14 +346,10 @@ h3 {
     letter-spacing: 0px;
     line-height: 26px;
     color: #ffffff;
-    font-family: "Poppins";
     font-weight: 400;
 }
 
-
-
 .info_block4_menu {
-
     margin-top: 63px;
     position: relative;
     width: 210px;
@@ -368,16 +357,12 @@ h3 {
     padding-left: 20px;
     margin-bottom: 20px;
     background-color: #9d0000;
-
     cursor: pointer;
     outline: none;
-
-    /* Font settings */
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 50px;
     color: #ffffff;
-    font-family: "Poppins";
     font-weight: 400;
 }
 
@@ -385,7 +370,6 @@ h3 {
     width: 50px;
     height: 50px;
     background-color: #ffcc00;
-
     content: "▼";
     text-align: center;
     color: #ba0000;
@@ -393,27 +377,18 @@ h3 {
     right: 0px;
 }
 
-
 .info_block4_menu .dropdown {
-    /* Size &amp; position */
     position: absolute;
     top: 65%;
     left: 0;
     right: 0;
-
-    /* Styles */
     background-color: #9d0000;
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 50px;
     color: #ffffff;
-    font-family: "Poppins";
     font-weight: 400;
-
-
     list-style: none;
-
-    /* Hiding */
     opacity: 0;
     pointer-events: none;
     z-index: 1;
@@ -429,11 +404,9 @@ h3 {
     z-index: 1;
 }
 
-
 .info_block4_menu .dropdown li:hover a {
     box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
     background-color: #ffcc00;
-
 }
 
 .info_block4_menu.active:after {
@@ -443,7 +416,6 @@ h3 {
 .info_block4_menu.active .dropdown {
     opacity: 1;
     pointer-events: auto;
-
 }
 
 .info_button_conteiner {
@@ -453,3 +425,4 @@ h3 {
     position: inherit;
     z-index: 0;
 }
+/*=================</body>====================*/

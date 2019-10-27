@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/04ae0aadf8.css">
     <title>Developer</title>
 </head>
@@ -35,20 +34,18 @@
     </div>
 </header>
 
-
 <body>
     <div class="after_head">
         <div class="conteiner">
             <h1 class="after_head_title_1"> We Deliver With Speed </h1>
-            <h2 class="after_head_title_2">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries </h2>
+            <div class="after_head_title_2">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries </div>
             <div class="after_head_title_3_conteiner">
-                <h3 class="after_head_title_3">AMAZING </h3>
-                <h3 class="after_head_title_3_1"> . </h3>
-                <h3 class="after_head_title_3">QUICK </h3>
-                <h3 class="after_head_title_3_1">. </h3>
-                <h3 class="after_head_title_3">24/7 SUPPORTS </h3>
+                <b class="after_head_title_3">AMAZING </b>
+                <b class="after_head_title_3_1"> . </b>
+                <b class="after_head_title_3">QUICK </b>
+                <b class="after_head_title_3_1">. </b>
+                <b class="after_head_title_3">24/7 SUPPORTS </b>
             </div>
-
 
             <div class="button_conteiner">
                 <form action="#">
@@ -68,38 +65,41 @@
 
     <div class="services">
         <div class="conteiner">
-            <h1 class="back_title">SERVICES</h1>
+            <div class="back_title">SERVICES</div>
             <h1 class="front_title">Awesome Services</h1>
             <div class="info_blocks">
                 <div class="info_block1">
-                    <h1 class="info_block_title"> EXPRESS SERVICES</h1>
-                    <h1 class="info_block_text">When an unknown printer took a galley of type and scrambled it to make it a type specimen </h1>
+                    
+                    <div class="info_block_title"> EXPRESS SERVICES</div>
+                    <div class="info_block_text">When an unknown printer took a galley of type and scrambled it to make it a type specimen </div>
                     <a href="#" class="info_block_read">
-                        <h1 class="info_block_read">Read More </h1>
-                        <h1 class="triangle-right">▶</h1>
+                        <div class="info_block_read">Read More </div>
+                        <div class="triangle-right">▶</div>
                     </a>
                 </div>
+                
                 <div class="info_block2">
-                    <h1 class="info_block_title">PARCEL & ECOMMERCE</h1>
-                    <h1 class="info_block_text">When an unknown printer took a galley of type and scrambled it to make it a type specimen </h1>
+                    <div class="info_block_title">PARCEL & ECOMMERCE</div>
+                    <div class="info_block_text">When an unknown printer took a galley of type and scrambled it to make it a type specimen </div>
                     <a href="#" class="info_block_read">
-                        <h1 class="info_block_read">Read More </h1>
-                        <h1 class="triangle-right">▶</h1>
+                        <div class="info_block_read">Read More </div>
+                        <div class="triangle-right">▶</div>
                     </a>
                 </div>
+                
                 <div class="info_block3">
-                    <h1 class="info_block_title">FRIEGHT TRANSPORT</h1>
-                    <h1 class="info_block_text">When an unknown printer took a galley of type and scrambled it to make it a type specimen </h1>
+                    <div class="info_block_title">FRIEGHT TRANSPORT</div>
+                    <div class="info_block_text">When an unknown printer took a galley of type and scrambled it to make it a type specimen </div>
                     <a href="#" class="info_block_read">
-                        <h1 class="info_block_read">Read More </h1>
-                        <h1 class="triangle-right">▶</h1>
+                        <div class="info_block_read">Read More </div>
+                        <div class="triangle-right">▶</div>
                     </a>
                 </div>
+                
                 <div class="info_block4">
                     <div class="info_block4_cont">
-                        <h1 class="info_block4_title">DHL Worldwide</h1>
-                        <h1 class="info_block4_text">When an unknown prot printer type and scra</h1>
-
+                        <div class="info_block4_title">DHL Worldwide</div>
+                        <div class="info_block4_text">When an unknown prot printer type and scra</div>
 
                         <div id="dd" class="info_block4_menu" tabindex="1">
                             <span>Location</span>
@@ -132,12 +132,10 @@
                         DropDown.prototype = {
                             initEvents: function() {
                                 var obj = this;
-
                                 obj.dd.on('click', function(event) {
                                     $(this).toggleClass('active');
                                     return false;
                                 });
-
                                 obj.opts.on('click', function() {
                                     var opt = $(this);
                                     obj.val = opt.text();
@@ -152,22 +150,14 @@
                                 return this.index;
                             }
                         }
-
                         $(function() {
-
                             var dd = new DropDown($('#dd'));
-
                             $(document).click(function() {
                                 // all dropdowns
                                 $('.wrapper-dropdown-3').removeClass('active');
                             });
-
                         });
-
                     </script>
-
-
-
                 </div>
             </div>
         </div>
