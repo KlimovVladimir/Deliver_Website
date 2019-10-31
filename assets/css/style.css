@@ -1,4 +1,4 @@
-﻿/*=================<header>=================*/
+/*=================<header>=================*/
 
 /*header menu*/
 
@@ -521,12 +521,8 @@ h2 {
 .info_block4_menu.active .dropdown {
     opacity: 1;
     pointer-events: auto;
-<<<<<<< Updated upstream
-}
-=======
-
 }   
->>>>>>> Stashed changes
+
 
 .info_button_conteiner {
     width: 100%;
