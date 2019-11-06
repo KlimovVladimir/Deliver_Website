@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/04ae0aadf8.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <title>Developer</title>
 </head>
 
@@ -42,20 +43,33 @@
             <button class="button_logo"></button>
         </form>
         
+        <nav id = "nav">
         <ul class = "navigation">
            <li><a href="#services">EXPRESS</a></li>
            <li><a href="#services">PARCEL & ECOMMERCE </a></li>
-           <li><a href="#paragraf-3">LOGISTICS</a></li>
-           <li><a href="#paragraf-4">MAIL</a></li>
-           <li><a href="#paragraf-5">PRESS</a></li>
-           <li><a href="#paragraf-6">ABOUT</a></li>
+           <li><a href="#logistics">LOGISTICS</a></li>
+           <li><a href="#client">MAIL</a></li>
+           <li><a href="#press">PRESS</a></li>
+           <li><a href="#client">ABOUT</a></li>
         </ul>
-
+        </nav> 
         <form class = "button_search_form" action="#">
             <button class="button_search"><text class="button_search_text"><i class="fa fa-search" aria-hidden="true"></i></text></button>
         </form>
         
         </div>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+               $("#nav").on("click","a", function (event) {
+                   event.preventDefault();
+                   var id  = $(this).attr('href'),
+                       top = $(id).offset().top;
+                   $('body,html').animate({scrollTop: top}, 700);
+               });
+           });
+           </script>
+
     </div>
         
 </header>
@@ -90,9 +104,9 @@
     </div>
 
     <div class="services">
-        <div class="conteiner">
+        <div class="conteiner" id="services">
             <div class="back_title">SERVICES</div>
-            <h1 class="front_title" id="services">Awesome Services</h1>
+            <h1 class="front_title">Awesome Services</h1>
             <div class="info_blocks">
                 <div class="info_block1">
                     <div class="info_block_title"> EXPRESS SERVICES</div>
@@ -191,7 +205,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <div class="container_video">
+    <div class="container_video" id = "press">
         <video preload="true" class="video">
             <source src="../Deliver_Website/assets/video/2.mp4" type="video/mp4">
         </video>
@@ -230,7 +244,7 @@
     </div>
     
     <div class="conteiner1">
-<div class="express_form">
+<div class="express_form" id = "logistics">
 
      <div class="express_form_m">
   <div id="ddd"  class="express_form_menu">
@@ -311,30 +325,53 @@
     </div>
     </div>
 
-    <div class = "client">
+    <div class = "client" id = "client">
         <div class = "client_container">
-            <form class = "button_client_form_1" action = "#">
-                <button class="button_client_1"></button>
+            <form action = "#">
+            <button class="button_client_1" ></button>
+            <button class="button_client_2" ></button>
+            <button class="button_client_3" ></button>
+            <button class="button_client_4" ></button>
             </form>
-    
-            <form class = "button_client_form_2" action = "#">
-                <button class="button_client_2"></button>
-            </form>
-    
-            <form class = "button_client_form_3" action = "#">
-                <button class="button_client_3"></button>
-            </form>
-    
-            <form class = "button_client_form_4" action = "#">
-                <button class="button_client_4"></button>
-            </form>
-        
         </div>
     </div>
 </body>
 
 <footer>
+    <div class = "footer">
+        <img src = "assets/image/footer/left-side-image.png" class = "left-side-image"></img>
+            <div class = "footer_container">
+            
+                <ul class = "link_box_1">
+                    <span>CONTACT CENTER</span>
+                    <li><a href="#">DHL EXPRESS</a></li>
+                    <li><a href="#">DHL PARCEL & ECOMMERCE </a></li>
+                    <li><a href="#">DHL GLOBAL FORWARDING</a></li>
+                    <li><a href="#">DHL FREIGHT</a></li>
+                    <li><a href="#">DHL SUPPLY CHAIN</a></li>
+                </ul>
 
+                <ul class = "link_box_2">
+                    <span>ABOUT US</span>
+                    <li><a href="#">PARTNERSHIPS</a></li>
+                    <li><a href="#">COMPANY PORTRAIT</a></li>
+                    <li><a href="#">DHL GLOBAL FORWARDING</a></li>
+                    <li><a href="#">GREEN SOLUTION</a></li>
+                    <li><a href="#">INNOVATION</a></li>
+                </ul>
+           
+                <ul class = "link_box_3">
+                    <span>SOCIAL MEDIA</span>
+                    <li><a href="#">FACEBOOK</a></li>
+                    <li><a href="#">DRIBBBLE</a></li>
+                    <li><a href="#">BEHANCE</a></li>
+                    <li><a href="#">GMAIL</a></li>
+                    <li><a href="#">TWITTER</a></li>
+                 </ul>
+            
+                </div>
+        <img src = "assets/image/footer/right-side-image.png" class = "right-side-image"></img>
+    </div>
 </footer>
 
 </html>

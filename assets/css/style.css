@@ -924,82 +924,86 @@ padding-top: 90px;
     margin-right: 375px;
 }
 
-.button_client_form_1 {
+.client_container button{
     margin-top: 70px;
     width: 270px;
     height: 129px;
+    border: 0px solid;
+    outline: none;
+}
+
+.client_container button:hover{
+    border: 3px solid #ba0000;
 }
 
 .button_client_1 {
-    width: 270px;
-    height: 129px;
-    border: 0px solid;
-    outline: none;
     background-image: url(../image/client/1/full.png);
 }
 
-.button_client_1:hover {
-    border: 3px solid #ba0000;
-}
-
-.button_client_form_2 {
-    margin-top: 70px;
-    margin-left: 30px;
-    width: 270px;
-    height: 129px;
-}
-
 .button_client_2 {
-    width: 270px;
-    height: 129px;
-    border: 0px solid;
-    outline: none;
+    margin-left: 30px;
     background-image: url(../image/client/2/full.png);
 }
 
-.button_client_2:hover {
-    border: 3px solid #ba0000;
-}
-
-.button_client_form_3 {
-    margin-top: 70px;
-    margin-left: 30px;
-    width: 270px;
-    height: 129px;
-}
-
 .button_client_3 {
-    width: 270px;
-    height: 129px;
-    border: 0px solid;
-    outline: none;
+    margin-left: 30px;
     background-image: url(../image/client/3/full.png);
 }
 
-.button_client_3:hover {
-    border: 3px solid #ba0000;
-}
-
-.button_client_form_4 {
-    margin-top: 70px;
-    margin-left: 30px;
-    width: 270px;
-    height: 129px;
-}
-
 .button_client_4 {
-    width: 270px;
-    height: 129px;
-    border: 0px solid;
-    outline: none;
+    margin-left: 30px;
     background-image: url(../image/client/4/full.png);
 }
 
-.button_client_4:hover {
-    border: 3px solid #ba0000;
-}
 /*=================</body>====================*/
 /*=================<footer>====================*/
 
+.footer{
+    display: flex;
+    width: 1920px;
+    height: 310px;
+    background-color: #ffffff;
+}
+
+.footer_container{
+    display: flex;
+    width: 1090px;
+    height: 310px;
+ }
+
+ .footer_container a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #777777;
+    font-family: "Poppins";
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+    display: block;
+    cursor: pointer;
+}
+
+.footer_container a:hover {
+    color: #ffcb00;
+}
+
+.footer_container span {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ba0000;
+}
+
+.link_box_1{
+    margin-left:59px;
+}
+
+.link_box_2{
+    margin-left:185px;
+}
+
+.link_box_3{
+    margin-left:92px;
+}
 
 /*=================</footer>====================*/
