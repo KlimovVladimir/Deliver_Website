@@ -907,4 +907,99 @@ padding-top: 90px;
 }
 ============================================
 
+
+/*client*/
+
+.client{
+    width: 1920px;
+    height: 280px;
+    background-color: #ffffff;
+}
+
+.client_container{
+    display: flex;
+    width: 1220px;
+    height: 280px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+.button_client_form_1 {
+    margin-top: 70px;
+    width: 270px;
+    height: 129px;
+}
+
+.button_client_1 {
+    width: 270px;
+    height: 129px;
+    border: 0px solid;
+    outline: none;
+    background-image: url(../image/client/1/full.png);
+}
+
+.button_client_1:hover {
+    border: 3px solid #ba0000;
+}
+
+.button_client_form_2 {
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 270px;
+    height: 129px;
+}
+
+.button_client_2 {
+    width: 270px;
+    height: 129px;
+    border: 0px solid;
+    outline: none;
+    background-image: url(../image/client/2/full.png);
+}
+
+.button_client_2:hover {
+    border: 3px solid #ba0000;
+}
+
+.button_client_form_3 {
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 270px;
+    height: 129px;
+}
+
+.button_client_3 {
+    width: 270px;
+    height: 129px;
+    border: 0px solid;
+    outline: none;
+    background-image: url(../image/client/3/full.png);
+}
+
+.button_client_3:hover {
+    border: 3px solid #ba0000;
+}
+
+.button_client_form_4 {
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 270px;
+    height: 129px;
+}
+
+.button_client_4 {
+    width: 270px;
+    height: 129px;
+    border: 0px solid;
+    outline: none;
+    background-image: url(../image/client/4/full.png);
+}
+
+.button_client_4:hover {
+    border: 3px solid #ba0000;
+}
 /*=================</body>====================*/
+/*=================<footer>====================*/
+
+
+/*=================</footer>====================*/
