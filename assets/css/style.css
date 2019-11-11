@@ -2,13 +2,13 @@
 
 /*header menu*/
 
-.header_menu{
+.header_menu {
     width: 1920px;
     height: 50px;
     background-image: url(../image/header/header-menu/bg.svg);
 }
 
-.header_menu_container{
+.header_menu_container {
     display: flex;
     width: 1220px;
     height: 50px;
@@ -21,7 +21,7 @@
     height: 0px;
 }
 
-.button_contact_center{
+.button_contact_center {
     width: 140px;
     height: 17px;
     font-size: 14px;
@@ -34,10 +34,10 @@
     cursor: pointer;
     outline: none;
     margin-top: 17px;
-    margin-left: 860px;  
+    margin-left: 860px;
 }
 
-.select_language{
+.select_language {
     width: 80px;
     height: 20px;
     font-size: 14px;
@@ -53,7 +53,7 @@
     margin-top: 17px;
 }
 
-.select_country{
+.select_country {
     width: 150px;
     height: 20px;
     font-size: 14px;
@@ -195,7 +195,7 @@ h2 {
     width: 1920px;
     height: 800px;
     background-image:
-    linear-gradient(45deg, #b90000 15%, rgba(255, 203, 0, 0) 75%), url(../image/Layer_3.png);
+        linear-gradient(45deg, #b90000 15%, rgba(255, 203, 0, 0) 75%), url(../image/Layer_3.png);
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -293,7 +293,7 @@ h2 {
     width: 192px;
     height: 50px;
     border-radius: 25px;
-    filter: drop-shadow(0px 10px 9px rgba(255,204,0,0.4));
+    filter: drop-shadow(0px 10px 9px rgba(255, 204, 0, 0.4));
     background-color: rgba(255, 204, 0, 0);
     border: 2px solid #ffffff;
     outline: none;
@@ -315,7 +315,7 @@ h2 {
     width: 1920px;
     height: 800px;
     background-image:
-    url(../image/Background.png);
+        url(../image/Background.png);
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -349,7 +349,7 @@ h2 {
     width: 270px;
     height: 180px;
     background-image:
-    url(../image/Layer_2.png);
+        url(../image/Layer_2.png);
     margin-top: 290px;
     margin-right: 30px;
 }
@@ -358,7 +358,7 @@ h2 {
     width: 270px;
     height: 180px;
     background-image:
-    url(../image/Layer_4.png);
+        url(../image/Layer_4.png);
     margin-top: 290px;
     margin-right: 30px;
 }
@@ -367,7 +367,7 @@ h2 {
     width: 270px;
     height: 180px;
     background-image:
-    url(../image/Layer_5.png);
+        url(../image/Layer_5.png);
     margin-top: 290px;
     margin-right: 30px;
 }
@@ -418,7 +418,7 @@ h2 {
     width: 270px;
     height: 340px;
     background-image:
-    url(../image/bg1.png);
+        url(../image/bg1.png);
     margin-top: 290px;
     margin-right: 30px;
 }
@@ -521,7 +521,7 @@ h2 {
 .info_block4_menu.active .dropdown {
     opacity: 1;
     pointer-events: auto;
-}   
+}
 
 .info_button_conteiner {
     width: 100%;
@@ -536,7 +536,7 @@ h2 {
 .container_video {
     position: relative;
     width: 1920px;
-    height: 700px;   
+    height: 700px;
 }
 
 .video {
@@ -593,81 +593,82 @@ h2 {
     color: #ffffff;
     text-align: center;
 }
-.conteiner1 {   
+
+.conteiner1 {
     width: 100%;
     max-width: 1170px;
     margin-left: 375px;
 }
 
 #rectangle_about1 {
-    position: relative;    
+    position: relative;
     width: 370px;
     height: 409px;
-    filter: drop-shadow(0px 10px 9px rgba(191,191,191,0.4));
-    background-color: #ffffff;
-    margin-top: -200px;    
-}
-
-.about1{
-    width: 370px;
-    height: 200px;
-    background-image:url(../image/Layer_7.png);  
-}
-
-#rectangle_about2 {
-    position: relative;    
-    width: 370px;
-    height: 409px;  
-    margin-left: 30px;  
-    filter: drop-shadow(0px 10px 9px rgba(191,191,191,0.4));
+    filter: drop-shadow(0px 10px 9px rgba(191, 191, 191, 0.4));
     background-color: #ffffff;
     margin-top: -200px;
 }
 
-.about2{
+.about1 {
     width: 370px;
     height: 200px;
-    background-image:url(../image/Layer_9.png);  
+    background-image: url(../image/Layer_7.png);
+}
+
+#rectangle_about2 {
+    position: relative;
+    width: 370px;
+    height: 409px;
+    margin-left: 30px;
+    filter: drop-shadow(0px 10px 9px rgba(191, 191, 191, 0.4));
+    background-color: #ffffff;
+    margin-top: -200px;
+}
+
+.about2 {
+    width: 370px;
+    height: 200px;
+    background-image: url(../image/Layer_9.png);
 }
 
 #rectangle_about3 {
-    position: relative;    
+    position: relative;
     width: 370px;
-    height: 409px;  
-    margin-left: 30px;  
-    filter: drop-shadow(0px 10px 9px rgba(191,191,191,0.4));
+    height: 409px;
+    margin-left: 30px;
+    filter: drop-shadow(0px 10px 9px rgba(191, 191, 191, 0.4));
     background-color: #ffffff;
-    margin-top: -200px;    
+    margin-top: -200px;
 }
 
-.about3{
+.about3 {
     width: 370px;
     height: 200px;
-    background-image:url(../image/Layer_8.png);  
+    background-image: url(../image/Layer_8.png);
 }
 
-.about_text_header{
+.about_text_header {
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 24px;
-    color: #ba0000; 
+    color: #ba0000;
     padding-left: 30px;
     padding-top: 30px;
-    font-weight: 600;    
+    font-weight: 600;
 }
 
-.triangle_about{
-    display: flex;    
+.triangle_about {
+    display: flex;
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 24px;
     color: #ffcc00;
-    max-width: 450px;    
+    max-width: 450px;
     padding-left: 30px;
     padding-top: 30px;
 }
 
-.text_about{
+.text_about {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 24px;
@@ -675,62 +676,108 @@ h2 {
     padding-left: 10px;
 }
 
-.triangle_about1{
-    display: flex;       
+.triangle_about1 {
+    display: flex;
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 24px;
     color: #ffcc00;
-    max-width: 450px;      
-    padding-top: 5px;    
+    max-width: 450px;
+    padding-top: 5px;
     padding-left: 30px;
 }
 
 /*express_logistics*/
 
-.express_form{
-    width: 572px;
-    height: 535px;
+.express_form {
     margin-top: 95px;
-    background-image:url(../image/bg_express.png);
 }
 
-.express_image_border{
+.express_image_border {
     width: 431px;
     height: 499px;
-    background-color: rgba(186,0,0,0);
+    background-color: rgba(186, 0, 0, 0);
     border: 20px solid #ffcc00;
     margin-left: 700px;
     margin-top: -535px;
 }
 
-.express_image{
+.express_image {
     display: flex;
     width: 434px;
     height: 499px;
-    background-image: linear-gradient(0deg, #ffcb00 0%, rgba(255,255,255,0) 100%),url(../image/express.png);
+    background-image: linear-gradient(0deg, #ffcb00 0%, rgba(255, 255, 255, 0) 100%), url(../image/express.png);
     margin-top: 15px;
     margin-left: 15px;
 }
 
-.express_image_logo{
+.express_image_logo {
     width: 156px;
     height: 50px;
-    background-image:url(../image/dhl_logo.png);
+    background-image: url(../image/dhl_logo.png);
     margin-top: 448px;
+}
+
+.tabs {
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.tabs > input {
+    display: none;
+}
+
+.tabs > div {
+    width: 572px;
+    height: 497px;
+    display: none;
+    padding: 12px;
+    background: #ba0000;
+}
+
+.tabs > label {
+    display: inline-block;
+    width: 286px;
+    height: 50px;
+    padding: 18px;
+    margin: 0 -5px -1px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 600;
+    color: #ba0000;
+    background: #ffcc00;
+    cursor: pointer;
+}
+
+.tabs > input:checked + label {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+    background: #ba0000;
+}
+
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2 {
+    display: block;
 }
 
 
 /*features*/
 
-.features_image{
+.features_image {
     width: 1920px;
     height: 352px;
     margin-top: 99px;
-    background-image:url(../image/bg_feature.png);
+    background-image: url(../image/bg_feature.png);
 }
 
-.features_text{
+.features_text {
     font-size: 30px;
     letter-spacing: 1px;
     line-height: 24px;
@@ -739,7 +786,7 @@ h2 {
     font-weight: 700;
 }
 
-.features_text1{
+.features_text1 {
     padding-top: 35px;
     font-size: 18px;
     letter-spacing: 0px;
@@ -753,18 +800,17 @@ h2 {
     display: flex;
     width: 100%;
     max-width: 380px;
-    padding-left: 1015px; 
-    margin-top: -100px;    
+    padding-left: 1015px;
+    margin-top: -100px;
 }
 
 
-============================================
-.express_form_m {
-width: 489px;
-height: 50px;
-background-color: rgba(255,204,0,0);
-border: 2px solid #ffffff;
-padding-top: 90px;    
+============================================.express_form_m {
+    width: 489px;
+    height: 50px;
+    background-color: rgba(255, 204, 0, 0);
+    border: 2px solid #ffffff;
+    padding-top: 90px;
 }
 
 .express_form_menu {
@@ -772,9 +818,9 @@ padding-top: 90px;
     position: absolute;
     width: 489px;
     height: 50px;
-    background-color: rgba(255,204,0,0);
+    background-color: rgba(255, 204, 0, 0);
     padding-left: 20px;
-    margin-top: 90px; 
+    margin-top: 90px;
     margin-left: 40px;
     border: 2px solid #ffffff;
     cursor: pointer;
@@ -784,12 +830,12 @@ padding-top: 90px;
     line-height: 50px;
     color: #ffffff;
     font-weight: 400;
-    
-    
+
+
 }
 
 .express_form_menu:after {
-     position: absolute;
+    position: absolute;
     width: 48px;
     height: 48px;
     margin-top: -1px;
@@ -815,24 +861,25 @@ padding-top: 90px;
     opacity: 0;
     pointer-events: none;
     z-index: 1;
-    
-    
 }
 
 .express_form_menu .dropdown li a {
     padding-left: 20px;
     margin-left: -42px;
+    margin-top: -15px;
+    margin-bottom: -15px;
     width: 489px;
     display: block;
     text-decoration: none;
     color: #ffffff;
     transition: all 0.3s ease-out;
     z-index: 1;
-    
+
     background-color: #a30000;
     border-left: 2px solid #ffcc00;
     border-right: 2px solid #ffcc00;
 }
+
 
 .express_form_menu .dropdown li a1 {
     padding-left: 20px;
@@ -843,7 +890,7 @@ padding-top: 90px;
     color: #ffffff;
     transition: all 0.3s ease-out;
     z-index: 1;
-    
+
     background-color: #a30000;
     border-left: 2px solid #ffcc00;
     border-right: 2px solid #ffcc00;
@@ -851,27 +898,25 @@ padding-top: 90px;
 }
 
 .express_form_menu .dropdown li:hover a {
-    box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
-    background-color: #ffcc00;
-    color: #ba0000;
+
+    color: #ffcc00;
 }
 
 .express_form_menu .dropdown li:hover a1 {
-    box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
-    background-color: #ffcc00;
-    color: #ba0000;
+
+    color: #ffcc00;
 }
 
 .express_form_menu.active {
     border: 2px solid #ffcc00;
     background-color: #ffcc00;
-    width: 489px;     
+    width: 489px;
     color: #ba0000;
 }
 
 .express_form_menu.active:after {
     content: "▲";
-   
+
     background-color: #ffcc00;
     border-left: 2px solid #a30000;
     color: #a30000;
@@ -880,43 +925,65 @@ padding-top: 90px;
 .express_form_menu.active .dropdown {
     opacity: 1;
     pointer-events: auto;
-} 
+}
 
 .express_form_m1 {
-width: 489px;
-height: 50px;
-background-color: rgba(255,204,0,0);
+    width: 489px;
+    height: 50px;
+    background-color: rgba(255, 204, 0, 0);
 
-padding-top: 90px;    
+    padding-top: 90px;
 }
 
 .express_form_m2 {
-width: 489px;
-height: 50px;
-background-color: rgba(255,204,0,0);
-border: 0px solid #ffffff;
-padding-top: 90px;    
+    width: 489px;
+    height: 50px;
+    background-color: rgba(255, 204, 0, 0);
+    border: 0px solid #ffffff;
+    padding-top: 90px;
 }
 
 .express_form_m3 {
-width: 489px;
-height: 50px;
-background-color: rgba(255,204,0,0);
-border: 0px solid #ffffff;
-padding-top: 90px;    
+    width: 489px;
+    height: 50px;
+    background-color: rgba(255, 204, 0, 0);
+    border: 0px solid #ffffff;
+    padding-top: 90px;
 }
+
+h3 {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    background: #a30000;
+    width: 489px;
+    margin-left: -41px;
+    border-left: 2px solid #ffcc00;
+    border-right: 2px solid #ffcc00;
+}
+
+.express_form_menu .dropdown li a:before {
+    content: '▶';
+}
+
+.express_form_menu .dropdown li a1:before {
+    content: '▶';
+}
+
 ============================================
-
-
 /*client*/
 
-.client{
+.client {
     width: 1920px;
     height: 280px;
     background-color: #ffffff;
 }
 
-.client_container{
+.client_container {
     display: flex;
     width: 1220px;
     height: 280px;
@@ -924,7 +991,7 @@ padding-top: 90px;
     margin-right: 375px;
 }
 
-.client_container button{
+.client_container button {
     margin-top: 70px;
     width: 270px;
     height: 129px;
@@ -932,7 +999,7 @@ padding-top: 90px;
     outline: none;
 }
 
-.client_container button:hover{
+.client_container button:hover {
     border: 3px solid #ba0000;
 }
 
@@ -958,20 +1025,20 @@ padding-top: 90px;
 /*=================</body>====================*/
 /*=================<footer>====================*/
 
-.footer{
+.footer {
     display: flex;
     width: 1920px;
     height: 310px;
     background-color: #ffffff;
 }
 
-.footer_container{
+.footer_container {
     display: flex;
     width: 1090px;
     height: 310px;
- }
+}
 
- .footer_container a {
+.footer_container a {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 30px;
@@ -994,16 +1061,16 @@ padding-top: 90px;
     color: #ba0000;
 }
 
-.link_box_1{
-    margin-left:59px;
+.link_box_1 {
+    margin-left: 59px;
 }
 
-.link_box_2{
-    margin-left:185px;
+.link_box_2 {
+    margin-left: 185px;
 }
 
-.link_box_3{
-    margin-left:92px;
+.link_box_3 {
+    margin-left: 92px;
 }
 
 /*=================</footer>====================*/
