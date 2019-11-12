@@ -1,36 +1,21 @@
-                            function DropDown(el) {
-                                this.bbb = el;
-                                this.placeholder = this.bbb.children('span');
-                                this.opts = this.bbb.find('ul.dropdown > li');
-                                this.val = '';
-                                this.index = -1;
-                                this.initEvents();
-                            }
-                            DropDown.prototype = {
-                                initEvents: function() {
-                                    var obj = this;
-                                    obj.bbb.on('click', function(event) {
-                                        $(this).toggleClass('active');
-                                        return false;
-                                    });
-                                    obj.opts.on('click', function() {
-                                        var opt = $(this);
-                                        obj.val = opt.text();
-                                        obj.index = opt.index();
-                                        obj.placeholder.text(obj.val);
-                                    });
-                                },
-                                getValue: function() {
-                                    return this.val;
-                                },
-                                getIndex: function() {
-                                    return this.index;
-                                }
-                            }
-                            $(function() {
-                                var bbb = new DropDown($('#bbb'));
-                                $(document).click(function() {
-                                    // all dropdowns
-                                    $('.wrapper-dropdown-3').removeClass('active');
-                                });
-                            });
+$('.dropdown1').click(function () {
+        $(this).attr('tabindex', 1).focus();
+        $(this).toggleClass('active');
+        $(this).find('.dropdown-menu1').slideToggle(300);
+    });
+    $('.dropdown1').focusout(function () {
+        $(this).removeClass('active');
+        $(this).find('.dropdown-menu1').slideUp(300);
+    });
+    $('.dropdown1 .dropdown-menu1 li').click(function () {
+        $(this).parents('.dropdown1').find('span').text($(this).text());
+        $(this).parents('.dropdown1').find('input').attr('value', $(this).attr('id'));
+    });
+/*End Dropdown Menu*/
+
+
+$('.dropdown-menu1 li').click(function () {
+  var input = '<strong>' + $(this).parents('.dropdown1').find('input').val() + '</strong>',
+      msg = '<span class="msg">Hidden input value: ';
+  $('.msg').html(msg + input + '</span>');
+}); 

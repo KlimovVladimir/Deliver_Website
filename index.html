@@ -89,14 +89,12 @@
                 <b class="after_head_title_3_1">. </b>
                 <b class="after_head_title_3">24/7 SUPPORTS </b>
             </div>
-
             <div class="button_conteiner">
                 <form action="#">
                     <button class="button_learn">
                         <text class="button_text">LEARN MORE</text>
                     </button>
                 </form>
-
                 <form action="#">
                     <button class="button_dhl">
                         <text class="button_text">DHL WORLDWIDE</text>
@@ -119,7 +117,6 @@
                         <div class="triangle-right">▶</div>
                     </a>
                 </div>
-
                 <div class="info_block2">
                     <div class="info_block_title">PARCEL & ECOMMERCE</div>
                     <div class="info_block_text">When an unknown printer took a galley of type and scrambled it to make it a type specimen </div>
@@ -128,7 +125,6 @@
                         <div class="triangle-right">▶</div>
                     </a>
                 </div>
-
                 <div class="info_block3">
                     <div class="info_block_title">FRIEGHT TRANSPORT</div>
                     <div class="info_block_text">When an unknown printer took a galley of type and scrambled it to make it a type specimen </div>
@@ -137,24 +133,26 @@
                         <div class="triangle-right">▶</div>
                     </a>
                 </div>
-
                 <form action="foo.php">
                     <div class="info_block4">
                         <div class="info_block4_cont">
                             <div class="info_block4_title">DHL Worldwide</div>
                             <div class="info_block4_text">When an unknown prot printer type and scra</div>
-
-                            <div id="dd" class="info_block4_menu" tabindex="1">
-                                <span>Location</span>
-                                <ul class="dropdown">
-                                    <li><a href="1"><i class="icon-envelope icon-large"></i>Location1</a><input type="hidden" name="custom" value="Location1" /></li>
-                                    <li><a href="2"><i class="icon-truck icon-large"></i>Location2</a>
-                                        <input type="hidden" name="custom" value="Location2" /></li>
-                                    <li><a href="3"><i class="icon-plane icon-large"></i>Location3</a>
-                                        <input type="hidden" name="custom" value="Location3" /></li>
-
-                                </ul>
+                            <div class="container3">
+                                <div i class="dropdown6">
+                                    <div class="select">
+                                        <span>Location</span>
+                                    </div>
+                                    <ul class="dropdown-menu6">
+                                        <li id="Location1">Location1</li>
+                                        <li id="Location2">Location2</li>
+                                        <li id="Location3">Location3</li>
+                                    </ul>
+                                    <script src="./script7.js"></script>
+                                </div>
                             </div>
+
+
                             <div class="info_button_conteiner">
                                 <button class="button_learn">
                                     <text class="button_text">EXPLORE</text>
@@ -162,52 +160,12 @@
                             </div>
                         </div>
 
-                        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-                        <script type="text/javascript">
-                            function DropDown(el) {
-                                this.dd = el;
-                                this.placeholder = this.dd.children('span');
-                                this.opts = this.dd.find('ul.dropdown > li');
-                                this.val = '';
-                                this.index = -1;
-                                this.initEvents();
-                            }
-                            DropDown.prototype = {
-                                initEvents: function() {
-                                    var obj = this;
-                                    obj.dd.on('click', function(event) {
-                                        $(this).toggleClass('active');
-                                        return false;
-                                    });
-                                    obj.opts.on('click', function() {
-                                        var opt = $(this);
-                                        obj.val = opt.text();
-                                        obj.index = opt.index();
-                                        obj.placeholder.text(obj.val);
-                                    });
-                                },
-                                getValue: function() {
-                                    return this.val;
-                                },
-                                getIndex: function() {
-                                    return this.index;
-                                }
-                            }
-                            $(function() {
-                                var dd = new DropDown($('#dd'));
-                                $(document).click(function() {
-                                    // all dropdowns
-                                    $('.wrapper-dropdown-3').removeClass('active');
-                                });
-                            });
 
-                        </script>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <div class="container_video" id="press">
         <video preload="true" class="video">
@@ -258,139 +216,104 @@
             </div>
         </div>
     </div>
-
     <div class="conteiner1">
         <div class="express_form" id="logistics">
             <div class="tabs">
                 <input type="radio" name="inset" value="" id="tab_1" checked>
                 <label for="tab_1">EXPRESS</label>
-
                 <input type="radio" name="inset" value="" id="tab_2">
                 <label for="tab_2">LOGISTICS</label>
-
                 <div id="txt_1">
-                    <div class="express_form_m">
-                        <div id="ddd" class="express_form_menu">
-                            <span>TRACK YOUR SHIPMENT</span>
-                            <ul class="dropdown">
-                                <h3>International Services to Another Country</h3>
-                                <li><a href="#"><i class="icon-envelope icon-large"></i> Emergency</a></li>
-                                <li><a href="#"><i class="icon-truck icon-large"></i> Time Critical</a></li>
-                                <li>
-                                    <a1 href="#"><i class="icon-plane icon-large"></i> Less Urgent</a1>
-                                </li>
-
+                    <div class="container2">
+                        <div id="dropdown" class="dropdown">
+                            <div class="select">
+                                <span>TRACK YOUR SHIPMEN</span>
+                            </div>
+                            <ul id="dropdown-menu" class="dropdown-menu">
+                                <div class="ex_text">International Services to Another Country</div>
+                                <li id="Emergency">Emergency</li>
+                                <li id="Time Critical">Time Critical</li>
+                                <li id="Less Urgen">Less Urgent</li>
                             </ul>
+                            <script src="./script1.js"></script>
                         </div>
-                        <script src="./script1.js"></script>
-
+                    </div>
+                    <div class="container2">
+                        <div id="dropdown1" class="dropdown1">
+                            <div class="select">
+                                <span>NEW LOGIN</span>
+                            </div>
+                            <ul id="dropdown-menu1" class="dropdown-menu1">
+                                <div class="ex_text">International Services to Another Country</div>
+                                <li id="Emergency">Emergency</li>
+                                <li id="Time Critical">Time Critical</li>
+                                <li id="Less Urgen">Less Urgent</li>
+                            </ul>
+                            <script src="./script2.js"></script>
+                        </div>
                     </div>
 
-                    <div class="express_form_m1">
-                        <div id="bbb" class="express_form_menu">
-                            <span>NEW LOGIN</span>
-                            <ul class="dropdown">
-                                <h3>International Services to Another Country</h3>
-                                <li><a href="#"><i class="icon-envelope icon-large"></i> Emergency</a></li>
-                                <li><a href="#"><i class="icon-truck icon-large"></i> Time Critical</a></li>
-                                <li>
-                                    <a1 href="#"><i class="icon-plane icon-large"></i> Less Urgent</a1>
-                                </li>
-
+                    <div class="container2">
+                        <div class="dropdown2">
+                            <div class="select">
+                                <span>FIND DHL POINT</span>
+                            </div>
+                            <ul class="dropdown-menu2">
+                                <div class="ex_text">International Services to Another Country</div>
+                                <li id="Emergency">Emergency</li>
+                                <li id="Time Critical">Time Critical</li>
+                                <li id="Less Urgen">Less Urgent</li>
                             </ul>
+                            <script src="./script3.js"></script>
                         </div>
-                        <script src="./script2.js"></script>
                     </div>
-
-                    <div class="express_form_m2">
-                        <div id="aaa" class="express_form_menu">
-                            <span>FIND DHL POINT</span>
-                            <ul class="dropdown">
-                                <h3>International Services to Another Country</h3>
-                                <li><a href="#"><i class="icon-envelope icon-large"></i> Emergency</a></li>
-                                <li><a href="#"><i class="icon-truck icon-large"></i> Time Critical</a></li>
-                                <li>
-                                    <a1 href="#"><i class="icon-plane icon-large"></i> Less Urgent</a1>
-                                </li>
-
+                    <div class="container2">
+                        <div class="dropdown3">
+                            <div class="select">
+                                <span>FIND DHL POINT</span>
+                            </div>
+                            <ul class="dropdown-menu3">
+                                <div class="ex_text">International Services to Another Country</div>
+                                <li id="Emergency">Emergency</li>
+                                <li id="Time Critical">Time Critical</li>
+                                <li id="Less Urgen">Less Urgent</li>
                             </ul>
+                            <script src="./script4.js"></script>
                         </div>
-                        <script src="./script3.js"></script>
-                    </div>
-
-                    <div class="express_form_m3">
-                        <div id="ggg" class="express_form_menu">
-                            <span>FIND A SERVICE</span>
-                            <ul class="dropdown">
-                                <h3>International Services to Another Country</h3>
-                                <li><a href="#"><i class="icon-envelope icon-large"></i> Emergency</a></li>
-                                <li><a href="#"><i class="icon-truck icon-large"></i> Time Critical</a></li>
-                                <li>
-                                    <a1 href="#"><i class="icon-plane icon-large"></i> Less Urgent</a1>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <script src="./script4.js"></script>
                     </div>
                 </div>
                 <div id="txt_2">
-                    <div class="express_form_m">
-                        <div id="xxx" class="express_form_menu">
-                            <span>TRACK YOUR SHIPMENT</span>
-                            <ul class="dropdown">
-                                <h3>International Services to Another Country</h3>
-                                <li><a href="#"><i class="icon-envelope icon-large"></i> Emergency</a></li>
-                                <li><a href="#"><i class="icon-truck icon-large"></i> Time Critical</a></li>
-                                <li>
-                                    <a1 href="#"><i class="icon-plane icon-large"></i> Less Urgent</a1>
-                                </li>
-
+                    <div class="container2">
+                        <div class="dropdown4">
+                            <div class="select">
+                                <span>TRACK YOUR SHIPMEN</span>
+                            </div>
+                            <ul class="dropdown-menu4">
+                                <div class="ex_text">International Services to Another Country</div>
+                                <li id="Emergency">Emergency</li>
+                                <li id="Time Critical">Time Critical</li>
+                                <li id="Less Urgen">Less Urgent</li>
                             </ul>
+                            <script src="./script5.js"></script>
                         </div>
-                        <script src="./script5.js"></script>
-
                     </div>
-
-                    <div class="express_form_m1">
-                        <div id="yyy" class="express_form_menu">
-                            <span>NEW LOGIN</span>
-                            <ul class="dropdown">
-                                <h3>International Services to Another Country</h3>
-                                <li><a href="#"><i class="icon-envelope icon-large"></i> Emergency</a></li>
-                                <li><a href="#"><i class="icon-truck icon-large"></i> Time Critical</a></li>
-                                <li>
-                                    <a1 href="#"><i class="icon-plane icon-large"></i> Less Urgent</a1>
-                                </li>
-
+                    <div class="container2">
+                        <div class="dropdown5">
+                            <div class="select">
+                                <span>NEW LOGIN</span>
+                            </div>
+                            <ul class="dropdown-menu5">
+                                <div class="ex_text">International Services to Another Country</div>
+                                <li id="Emergency">Emergency</li>
+                                <li id="Time Critical">Time Critical</li>
+                                <li id="Less Urgen">Less Urgent</li>
                             </ul>
+                            <script src="./script6.js"></script>
                         </div>
-                        <script src="./script6.js"></script>
                     </div>
-
-                    <div class="express_form_m2">
-                        <div id="zzz" class="express_form_menu">
-                            <span>FIND DHL POINT</span>
-                            <ul class="dropdown">
-                                <h3>International Services to Another Country</h3>
-                                <li><a href="#"><i class="icon-envelope icon-large"></i> Emergency</a></li>
-                                <li><a href="#"><i class="icon-truck icon-large"></i> Time Critical</a></li>
-                                <li>
-                                    <a1 href="#"><i class="icon-plane icon-large"></i> Less Urgent</a1>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <script src="./script7.js"></script>
-                    </div>
-
                 </div>
             </div>
         </div>
-
-
-
-
         <div class="express_image_border">
             <div class="express_image">
                 <div class="express_image_logo"> </div>
