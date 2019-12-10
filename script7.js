@@ -19,3 +19,9 @@ $('.dropdown-menu6 li').click(function () {
       msg = '<span class="msg">Hidden input value: ';
   $('.msg').html(msg + input + '</span>');
 }); 
+
+$('.dropdown6').keyup(function(event){
+    if(event.keyCode == 13){
+        $('.dropdown6').click();
+    }
+});

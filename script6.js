@@ -1,5 +1,5 @@
 $('.dropdown5').click(function () {
-        $(this).attr('tabindex', 1).focus();
+        $(this).attr('tabindex', 7).focus();
         $(this).toggleClass('active');
         $(this).find('.dropdown-menu5').slideToggle(300);
     });
@@ -19,3 +19,8 @@ $('.dropdown-menu5 li').click(function () {
       msg = '<span class="msg">Hidden input value: ';
   $('.msg').html(msg + input + '</span>');
 }); 
+$('.dropdown5').keyup(function(event){
+    if(event.keyCode == 13){
+        $(".dropdown5").click();
+    }
+});
