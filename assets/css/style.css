@@ -106,6 +106,11 @@
     background-color: #ba0000;
 }
 
+.button_search:focus {
+    filter: drop-shadow(0px 10px 9px rgba(186, 0, 0, 0.4));
+    background-color: #ba0000;
+}
+
 .button_search_text {
     font-size: 14px;
     letter-spacing: 1px;
@@ -163,6 +168,11 @@ ul.navigation a:hover {
     font-weight: bold;
 }
 
+ul.navigation a:focus {
+    outline: none;
+    border-bottom: 5px solid #ba0000;
+    font-weight: bold;
+}
 /*=================</header>=================*/
 /*=================<body>====================*/
 
@@ -263,8 +273,9 @@ h2 {
     height: 50px;
     border-radius: 25px;
     background-color: rgba(255, 204, 0, 0);
-    border: 2px solid #ffffff;
+    border: 2px solid #ffffff;  
     outline: none;
+    cursor: pointer;
 }
 
 .button_text {
@@ -287,6 +298,16 @@ h2 {
     color: #ba0000;
 }
 
+.button_learn:focus {
+    box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
+    background-color: #ffcc00;
+    border: 2px solid #ffcc00;
+}
+
+.button_learn:focus .button_text {
+   color: #ba0000; 
+}
+
 .button_dhl {
     margin-left: 20px;
     width: 192px;
@@ -296,6 +317,7 @@ h2 {
     background-color: rgba(255, 204, 0, 0);
     border: 2px solid #ffffff;
     outline: none;
+    cursor: pointer;
 }
 
 .button_dhl:hover {
@@ -308,6 +330,15 @@ h2 {
     color: #ba0000;
 }
 
+.button_dhl:focus {
+    box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
+    background-color: #ffcc00;
+    border: 2px solid #ffcc00;
+}
+
+.button_dhl:focus .button_text {
+   color: #ba0000; 
+}
 /*services*/
 
 .services {
@@ -353,6 +384,12 @@ h2 {
     margin-right: 30px;
 }
 
+.info_block1 :focus {
+    outline: 3px solid ;
+    width: 110px;	height: 43px;
+    outline-color:#ffcc00;
+}
+
 .info_block2 {
     width: 270px;
     height: 180px;
@@ -360,6 +397,12 @@ h2 {
         url(../image/Layer_4.png);
     margin-top: 290px;
     margin-right: 30px;
+}
+
+.info_block2 :focus {
+    outline: 3px solid ;
+    width: 110px;	height: 43px;
+    outline-color:#ffcc00;
 }
 
 .info_block3 {
@@ -370,6 +413,12 @@ h2 {
     margin-top: 290px;
     margin-right: 30px;
 }
+
+.info_block3 :focus {
+    outline: 3px solid ;
+    width: 110px;	height: 43px;
+    outline-color:#ffcc00;
+} 
 
 .info_block_title {
     padding-top: 180px;
@@ -472,6 +521,7 @@ h2 {
     font-weight: 400;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 
 .dropdown6:after {
@@ -493,6 +543,10 @@ h2 {
     padding: 10px
 }
 
+.dropdown6 .select:focus{
+    outline-color: #ffcc00;
+}
+
 .dropdown6 .select > i {
     font-size: 14px;
     transition: all .3s ease-in-out;
@@ -500,11 +554,11 @@ h2 {
     cursor: pointer;
 }
 
-.dropdown6:hover {}
+.dropdown6:hover:{}
 
 .dropdown6:active,
-.dropdown6:focus {
-    outline: none !important;
+.dropdown6:focus{
+    outline: none;
     background-color: #ba0000;
 }
 
@@ -546,7 +600,7 @@ h2 {
 
 .dropdown6 .dropdown-menu6 {
     padding: 0;
-    list-style: none
+    list-style: none;
 }
 
 .dropdown6 .dropdown-menu6 li:hover {
@@ -565,6 +619,45 @@ h2 {
     display: flex;
     position: inherit;
     z-index: 0;
+}
+.button_explore {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgba(255, 204, 0, 0);
+    border: 2px solid #ffffff;  
+    outline: none;
+    cursor: pointer;
+}
+
+.button_text_explore {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.button_explore:hover {
+    box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
+    background-color: #ffcc00;
+    border: 2px solid #ffcc00;
+}
+
+.button_explore:hover .button_text {
+    color: #ba0000;
+}
+
+.button_explore:focus {
+    box-shadow: 0px 10px 18px rgba(255, 204, 0, 0.4);
+    background-color: #ffcc00;
+    border: 2px solid #ffcc00;
+}
+
+.button_explore:focus .button_text {
+   color: #ba0000; 
 }
 
 /*about*/
@@ -594,7 +687,7 @@ h2 {
 }
 
 .playpause::after {
-    padding-left: 5px;
+    padding-left: 3px;
     font-size: 30px;
     line-height: 70px;
     color: #ba0000;
@@ -614,6 +707,7 @@ h2 {
     margin: auto;
     background-size: contain;
     background-position: center;
+    cursor: pointer;
 }
 
 .playpause:hover:after {
@@ -761,7 +855,7 @@ h2 {
 }
 
 .tabs > input {
-    display: none;
+     display: none;
 }
 
 .tabs > div {
@@ -860,6 +954,7 @@ h2 {
     font-weight: 400;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 
 .dropdown:after {
@@ -880,7 +975,9 @@ h2 {
     cursor: pointer;
     padding: 10px
 }
-
+.dropdown .select:focus{
+    outline-color: #ffcc00;
+}
 .dropdown .select > i {
     font-size: 14px;
     transition: all .3s ease-in-out;
@@ -982,6 +1079,7 @@ h2 {
     font-weight: 400;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 
 .dropdown1:after {
@@ -1001,6 +1099,10 @@ h2 {
 .dropdown1 .select {
     cursor: pointer;
     padding: 10px
+}
+
+.dropdown1 .select:focus{
+    outline-color: #ffcc00;
 }
 
 .dropdown1 .select > i {
@@ -1091,6 +1193,7 @@ h2 {
     font-weight: 400;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 
 .dropdown2:after {
@@ -1110,6 +1213,10 @@ h2 {
 .dropdown2 .select {
     cursor: pointer;
     padding: 10px;
+}
+
+.dropdown2 .select:focus{
+    outline-color: #ffcc00;
 }
 
 .dropdown2 .select > i {
@@ -1200,6 +1307,7 @@ h2 {
     font-weight: 400;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 
 .dropdown3:after {
@@ -1219,6 +1327,10 @@ h2 {
 .dropdown3 .select {
     cursor: pointer;
     padding: 10px;
+}
+
+.dropdown3 .select:focus{
+    outline-color: #ffcc00;
 }
 
 .dropdown3 .select > i {
@@ -1309,6 +1421,7 @@ h2 {
     font-weight: 400;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 
 .dropdown4:after {
@@ -1328,6 +1441,10 @@ h2 {
 .dropdown4 .select {
     cursor: pointer;
     padding: 10px;
+}
+
+.dropdown4 .select:focus{
+    outline-color: #ffcc00;
 }
 
 .dropdown4 .select > i {
@@ -1418,6 +1535,7 @@ h2 {
     font-weight: 400;
     color: #fff;
     height: 50px;
+    cursor: pointer;
 }
 
 .dropdown5:after {
@@ -1437,6 +1555,10 @@ h2 {
 .dropdown5 .select {
     cursor: pointer;
     padding: 10px;
+}
+
+.dropdown5 .select:focus{
+    outline-color: #ffcc00;
 }
 
 .dropdown5 .select > i {
